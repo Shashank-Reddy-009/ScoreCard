@@ -1,0 +1,160 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin-top: 100px;
+}
+.score{
+    background-color: hsl(241, 81%, 54%);
+    height: 450px;
+    width: 300px;
+     border-radius: 25px;
+     color: #ffffff;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     overflow: visible;
+}
+.marks{
+    background-color: hsl(234, 85%, 45%);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset -1px -1px 30px hsl(234, 86%, 40%);
+}
+.marks .avg-marks{
+    font-size: 45px;
+    margin-top: 30px;
+    font-weight: 800;
+}
+.marks .total-marks{
+    color: #f5f0f0;
+    margin-top: -20px;
+}
+.score .applause{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.score .text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.score-card{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 450px;
+    width: 350px;
+    margin-left: -50px;
+    display: grid;
+    place-items: center;
+    border-radius: 25px;
+}
+.image{
+    margin-left: -10px;
+}
+.reaction{
+    background-color: #ffe5e5;
+    margin-left: 50px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 9px;
+    margin-top: -40px;
+}
+.memory {
+    background-color: hsl(39, 100%, 95%);
+    margin-left: 50px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 9px;
+    margin-top: -40px;
+}
+
+.verbal {
+    background-color: hsl(166, 100%, 95%);
+    margin-left: 50px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 9px;
+    margin-top: -40px;
+}
+.visual {
+    background-color: #e7eafd;
+    margin-left: 50px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 9px;
+    margin-top: -40px;
+}
+.reaction .text-reaction{
+    margin-left: -40px;
+    color: hsl(0, 100%, 67%);
+}
+.memory .text-memory{
+    margin-left: -40px;
+    color: hsl(39, 100%, 56%);
+}
+.verbal .text-verbal{
+    margin-left: -47px;
+    color: hsl(166, 100%, 37%);
+}
+.visual .text-visual{
+    margin-left: -47px;
+    color: hsl(234, 85%, 45%);
+}
+.marks-reaction {
+    margin-right: -20px;
+}
+.marks-memory {
+    margin-right: -20px;
+}
+.marks-verbal {
+    margin-right: -20px;
+}
+.marks-visual{
+    margin-right: -23px;
+}
+.marks-reaction span, .marks-memory span,.marks-verbal span, .marks-visual span {
+    color: grey;
+}
+.sc-header{
+    margin-left: -100px;
+    font-size: 20px;
+    margin-top: -5px;
+}
+.button{
+    height:50px;
+    width: 240px;
+    margin-left: 50px;
+    margin-top: -35px;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    background-color: hsl(241, 81%, 54%);
+    font-size: 16px;
+}
+.button:hover{
+    background-color: hsl(224, 30%, 27%);
+}
+.attribution{
+    margin-top: 10px;
+    text-align: center;
+}
